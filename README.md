@@ -671,10 +671,11 @@ For the performance test, we evaluate the performance under different configurat
   - Part 1 Questions: 30 Points
   - Part 2 Questions: 10 Points
 
-**Correctness of Fused Convolution - MaxPool Kernel: 45 Points + 2.5 Points EC**
+**Correctness of Fused Convolution - MaxPool Kernel: 45 Points + 5 Points EC**
   - With Small Images: 15 points
   - With Large Images: 15 points
   - With Bias Addition: 15 points
+  - With Small Images, Large Images, and Bias Addition Tests not running with `--simulate`: 2.5 points EC
   - With Max Pool: 2.5 points EC
 
 **Performance of Fused Convolution - MaxPool Kernel on Large Images: 15 Points + 5 Points EC**
