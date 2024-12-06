@@ -226,9 +226,6 @@ if __name__ == "__main__":
         else:
             print("Failed 😢")
 
-    if args.simulate:
-        exit()
-
     print("Comparing performance with reference kernel (no maxpool, float32)...")
     test_result = test_performance_conv2d_kernel(conv2d, pool_size=1, dtype = np.float32)
     if test_result:
