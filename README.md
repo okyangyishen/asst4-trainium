@@ -680,8 +680,8 @@ For the performance test, we evaluate the performance under different configurat
 **Performance of Fused Convolution - MaxPool Kernel on Large Images: 15 Points + 5 Points EC**
   - Without Max Pool (Float 16): 7.5 points
   - Without Max Pool (Float 32): 7.5 points
-  - With Max Pool (Float 16): 2.5 points
-  - With Max Pool (Float 32): 2.5 points
+  - With Max Pool (Float 16): 2.5 points EC
+  - With Max Pool (Float 32): 2.5 points EC
 
 ## Hand-in Instructions
 
